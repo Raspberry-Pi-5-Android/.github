@@ -7,7 +7,7 @@ the official Raspberry Pi kernel and firmware, and upstream open source projects
 
 | Android | Branch | Latest release | Status |
 |---|---|---|---|
-| 15 (AOSP `android-15.0.0_r1`) | `android-15` | `v0.9.0` | Work in progress |
+| 15 (`AOSP android-15.0.0_r1`) | `android-15` | `v0.9.0` | Work in progress |
 
 ## Features
  
