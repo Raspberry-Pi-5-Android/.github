@@ -1,24 +1,26 @@
 # Android (AOSP) for Raspberry Pi 5
 
-A board support package (BSP) that runs **AOSP Android** on the **Raspberry Pi 5**, built from AOSP,
+A board support package (BSP) that runs **Android** on the **Raspberry Pi 5**, built from AOSP,
 the official Raspberry Pi kernel and firmware, and upstream open source projects.
 
 ## Android versions
 
-| Android | Branch | Latest release | Status |
-|---|---|---|---|
-| 15 (`AOSP android-15.0.0_r1`) | `android-15` | `v0.9.0` | Work in progress |
+| Android | Branch | Latest release |
+|---|---|---|
+| 15 (`AOSP android-15.0.0_r1`) | `android-15` | `v0.10.0` | 
 
 ## Features
- 
+
 - Boots from microSD to the home screen (64-bit)
 - GPU acceleration: OpenGL ES 3.1 and Vulkan 1.3
 - Ethernet, Wi-Fi and Bluetooth audio
-- USB keyboard and mouse
+- USB keyboard, mouse and touchscreen
+
 ## Limitations
- 
+
 - SELinux permissive, storage not encrypted
-- `userdebug` build only
+- `userdebug` build only: ADB over the network gives root access without authentication, so use it
+  only on a trusted network and without personal data
 - No Google apps
 
 ## Repositories
