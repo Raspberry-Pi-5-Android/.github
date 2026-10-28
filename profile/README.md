@@ -33,6 +33,11 @@ the official Raspberry Pi kernel and firmware, and upstream open source projects
 | [`android_external_minigbm`](https://github.com/Raspberry-Pi-5-Android/android_external_minigbm) | Graphics buffer allocator |
 | [`android_local_manifest`](https://github.com/Raspberry-Pi-5-Android/android_local_manifest) | Local manifest for building |
 
+## Acknowledgements
+
+Thanks to [KonstaKANG](https://konstakang.com/), whose Android builds for the Raspberry Pi were used
+as a reference during development.
+
 ## License and disclaimer
 
 Each component keeps the license of its source. Personal project, not affiliated with Google or
